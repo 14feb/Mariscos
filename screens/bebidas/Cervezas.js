@@ -61,7 +61,7 @@ export default function Cervezas() {
         <View style={{ flexDirection: 'row', top: 10, height: 165 }}>
           <View style={{ paddingLeft: 10 }}>
             <Image
-              source={require('../../assets/Cevichee.jpg')}
+              source={require('../../assets/michelada.jpeg')}
               style={{ width: 150, height: 150, borderRadius: 20 }}
               resizeMode='cover'
             />

@@ -23,7 +23,7 @@ export default function Manu() {
         <View style={{justifyContent: 'center', alignItems: 'center', top:-30}}>
           <TouchableOpacity onPress={() => navegacion.navigate('Alimentos')}>
           <Image
-            source={require('../assets/Cevichee.jpg')}
+            source={require('../assets/menumar.jpg')}
             style={{ width: 200, height: 200, borderRadius: 20 }}
             resizeMode='cover'
           />
@@ -33,7 +33,7 @@ export default function Manu() {
         <View style={{justifyContent: 'center', alignItems: 'center',top: 40}}>
         <TouchableOpacity onPress={() => navegacion.navigate('Bebidas')}> 
           <Image
-            source={require('../assets/Cevichee.jpg')}
+            source={require('../assets/beb.jpg')}
             style={{ width: 200, height: 200, borderRadius: 20 }}
             resizeMode='cover'
           />

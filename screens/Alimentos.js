@@ -114,7 +114,7 @@ export default function Alimentos() {
           <View style={{ justifyContent: 'center', alignItems: 'center', marginBottom: '25%' }}>
             <TouchableOpacity onPress={() => navegacion.navigate('Ceviche')}>
             <Image
-              source={require('../assets/Cevichee.jpg')}
+              source={require('../assets/cv.jpg')}
               style={{ width: 150, height: 150, borderRadius: 20, marginBottom: -10 }}
               resizeMode='cover'
             />

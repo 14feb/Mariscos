@@ -57,7 +57,7 @@ export default function Ceviche() {
                 <View style={{ flexDirection: 'row', top: 10, height: 165 }}>
                     <View>
                         <Image
-                            source={require('../../assets/Cevichee.jpg')}
+                            source={require('../../assets/cv.jpg')}
                             style={{ width: 150, height: 150, borderRadius: 20 }}
                             resizeMode='cover'
                         />

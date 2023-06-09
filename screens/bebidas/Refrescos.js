@@ -61,7 +61,7 @@ export default function Refrescos() {
         <View style={{ flexDirection: 'row', top: 10, height: 165 }}>
           <View style={{ paddingLeft: 10 }}>
             <Image
-              source={require('../../assets/Cevichee.jpg')}
+              source={require('../../assets/ref.jpg')}
               style={{ width: 150, height: 150, borderRadius: 20 }}
               resizeMode='cover'
             />

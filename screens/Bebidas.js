@@ -70,7 +70,7 @@ export default function Bebidas() {
         <View style={{ justifyContent: 'center', alignItems: 'center', left: 20 }}>
           <TouchableOpacity onPress={() => navegacion.navigate('Refrescos')}>
           <Image
-            source={require('../assets/Cevichee.jpg')}
+            source={require('../assets/ref.jpg')}
             style={{ width: 150, height: 150, borderRadius: 20}}
             resizeMode='cover'
           />
@@ -110,7 +110,7 @@ export default function Bebidas() {
         <View style={{ justifyContent: 'center', alignItems: 'center',marginBottom:'25%' }}>
           <TouchableOpacity onPress={() => navegacion.navigate('Aguas')}>
           <Image
-            source={require('../assets/Cevichee.jpg')}
+            source={require('../assets/agua.jpeg')}
             style={{ width: 150, height: 150, borderRadius: 20 }}
             resizeMode='cover'
           />
